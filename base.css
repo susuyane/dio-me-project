@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color:rgb(5, 108, 108);
+    padding: 100px 10px 0px;
+}
+
+.menu li{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:rgb(8, 161, 161);
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+#Telefones p{
+    text-align: center;
+    padding: 10px;
+    color:rgb(5, 108, 108) ;
+}
+
+address{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+table{
+    margin:auto;
+}
+
+#h1-atendiment{
+    text-align: center;
+}
+
+table thead tr th {
+    border:1px solid rgba(128, 128, 128, 0.432);
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+}
+
+table tbody tr td {
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    padding: 5px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+table tbody tr:hover {
+    background-color: rgba(128, 128, 128, 0.233);
+}
+
+.content h1{ 
+    color:darkcyan;
+}
+
+.content h2{
+    color:darkcyan;
+}
+
+form{
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(8, 161, 161);
+    min-height: 150px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+#footer-info{
+    width: 800px;
+    display: flex;
+    padding-top: 20px;
+    
+}
+#footer-info p{
+    margin-left: 280px;
+    
+}
+
+#footer-info a{
+    text-decoration: none;
+    color: rgb(5, 108, 108);
+}
